@@ -1,9 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import './header.css';
 
 export default function Header() {
     return (
-        <header className="bg-black">
+        <header className='header-container'>
             <Link href="./">
                 <Image src='/logo.svg' alt="logo" width={190} height={190} />
             </Link>
