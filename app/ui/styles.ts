@@ -16,6 +16,19 @@ export const HeaderNav = styled.nav`
     font-size: 18px;
 `;
 
+export const HeaderLink = styled.a`
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    &:hover {
+        background-color: #EBF2F9;
+    }
+`;
+
 export const FooterContent = styled.div`
         display: flex;
     justify-content: space-between;
