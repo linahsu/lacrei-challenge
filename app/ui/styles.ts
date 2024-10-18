@@ -5,6 +5,11 @@ export const HeaderContainer = styled.header`
     justify-content: space-between;
     margin-top: 50px;
     margin-bottom: 50px;
+
+    @media (max-width: 768px) {
+        width: 90%;
+        flex-direction: column;
+    }
 `;
 
 export const HeaderNav = styled.nav`
@@ -14,6 +19,12 @@ export const HeaderNav = styled.nav`
     color: #018762;
     font-weight: 600;
     font-size: 18px;
+
+    @media (max-width: 768px) {
+        margin-right: 20px;
+        margin-top: 40px;
+        width: 100%;
+    }
 `;
 
 export const HeaderLink = styled.a`
@@ -27,6 +38,15 @@ export const HeaderLink = styled.a`
     &:hover {
         background-color: #EBF2F9;
     }
+
+    @media (max-width: 768px) {
+        background-color: #018762;
+        color: white;
+
+        &:hover {
+            background-color: #015D4D;
+        }
+    }
 `;
 
 export const FooterContent = styled.div`
@@ -38,6 +58,10 @@ export const FooterContent = styled.div`
     margin: auto;
     margin-top: 50px;
     padding-top: 50px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 `;
 
 export const FooterTitle = styled.p`
@@ -84,9 +108,11 @@ export const SecurityButtonContainer = styled.div`
 `;
 
 export const Button = styled.button`
-    background-color: #018762;
+    background-color: white;
+    border: 2px solid #018762;
     border-radius: 10px;
-    color: white;
+    color: #018762;
+    font-weight: bold;
     padding: 10px;
     padding-left: 25px;
     padding-right: 25px;
@@ -94,6 +120,7 @@ export const Button = styled.button`
 
     &:hover {
         background-color: #015D4D;
-        transform: scale(1.1);
+        border: 2px solid #015D4D;
+        color: white;
     }
 `;

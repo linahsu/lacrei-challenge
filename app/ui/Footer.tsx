@@ -22,19 +22,6 @@ export default function Footer() {
                     <a href="https://lacreisaude.com.br/quem-somos/#missao-visao-valores" target="_blank">
                         <S.FooterLink>Missão, Visão e Valor</S.FooterLink>
                     </a>
-                    <a href="https://lacreisaude.com.br/acessibilidade/" target="_blank">
-                        <S.FooterLink>Acessibilidade</S.FooterLink>
-                    </a>
-                </div>
-
-                <div>
-                    <S.FooterTitle>Saúde</S.FooterTitle>
-                    <a href="https://paciente.lacreisaude.com.br/" target="blank">
-                        <S.FooterLink>Buscar Atendimento</S.FooterLink>
-                    </a>
-                    <a href="https://profissional.lacreisaude.com.br/">
-                        <S.FooterLink>Oferecer Atendimento</S.FooterLink>
-                    </a>
                 </div>
 
                 <div>
