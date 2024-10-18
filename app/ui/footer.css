@@ -1,8 +1,8 @@
 .footer-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 10px;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #B2DFD0;
     width: 80%;
     margin: auto;
     margin-top: 50px;
@@ -11,4 +11,9 @@
 
 .title {
     font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.footer-link {
+    margin-top: 20px;
 }

@@ -13,26 +13,39 @@ export default function Footer() {
                 <div>
                     <p className="title">Lacrei Saúde</p>
                     <a href="https://lacreisaude.com.br/quem-somos/" target="_blank">
-                        <p>Quem somos</p>
+                        <p className="footer-link">Quem somos</p>
                     </a>
                     <a href="https://lacreisaude.com.br/quem-somos/#proposito" target="_blank">
-                        <p>Nosso Propósito</p>
+                        <p className="footer-link">Nosso Propósito</p>
                     </a>
                     <a href="https://lacreisaude.com.br/quem-somos/#missao-visao-valores" target="_blank">
-                        <p>Missão, Visão e Valor</p>
+                        <p className="footer-link">Missão, Visão e Valor</p>
+                    </a>
+                    <a href="https://lacreisaude.com.br/acessibilidade/" target="_blank">
+                        <p className="footer-link">Acessibilidade</p>
                     </a>
                 </div>
 
                 <div>
                     <p className="title">Saúde</p>
                     <a href="https://paciente.lacreisaude.com.br/" target="blank">
-                        <p>Buscar Atendimento</p>
+                        <p className="footer-link">Buscar Atendimento</p>
                     </a>
                     <a href="https://profissional.lacreisaude.com.br/">
-                        <p>Oferecer Atendimento</p>
+                        <p className="footer-link">Oferecer Atendimento</p>
                     </a>
-                    <a href="https://lacreisaude.com.br/ajuda/" target="_blank">
-                        <p>Dúvidas frequentes</p>
+                </div>
+
+                <div>
+                    <p className="title">Segurança e Privacidade</p>
+                    <a href="https://lacreisaude.com.br/politica-de-privacidade/" target="blank">
+                        <p className="footer-link">Política de Privacidade</p>
+                    </a>
+                    <a href="https://lacreisaude.com.br/termos-de-uso/">
+                        <p className="footer-link">Termos de Uso</p>
+                    </a>
+                    <a href="https://lacreisaude.com.br/direitos-de-titular/">
+                        <p className="footer-link">Direitos de Titular</p>
                     </a>
                 </div>
             </div>
