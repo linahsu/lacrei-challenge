@@ -1,17 +1,18 @@
+'use client';
 import Image from 'next/image';
 import Link from 'next/link';
-import './header.css';
+import * as S from './styles';
 
 export default function Header() {
     return (
-        <header className='header-container'>
+        <S.HeaderContainer>
             <Link href="./">
                 <Image src='/logo.svg' alt="logo" width={190} height={190} />
             </Link>
-            <nav className='header-nav'>
+            <S.HeaderNav>
                 <Link href="/">Quem Somos</Link>
                 <Link href="/security">Segurança e Privacidade</Link>
-            </nav>
-        </header>
+            </S.HeaderNav>
+        </S.HeaderContainer>
     )
 }
