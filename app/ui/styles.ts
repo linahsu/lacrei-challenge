@@ -49,11 +49,38 @@ export const FooterLink = styled.p`
     margin-top: 20px;
 `;
 
-export const ButtonContainer = styled.div`
+export const HomeImage = styled.img`
+    margin: auto;
+    width: 50%;
+`;
+
+export const HomeContainer = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: auto;
     margin-top: 50px;
+    width: 50%;
+`;
+
+export const SecurityContainer = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+`;
+
+export const SecurityImage = styled.img`
+    width: 50%;
+`;
+
+export const SecurityButtonContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 50px;
+    height: 300px;
 `;
 
 export const Button = styled.button`
