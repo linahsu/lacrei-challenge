@@ -30,7 +30,7 @@ export const HeaderLink = styled.a`
 `;
 
 export const FooterContent = styled.div`
-        display: flex;
+    display: flex;
     justify-content: space-between;
     padding: 10px;
     border-top: 1px solid #B2DFD0;
@@ -47,4 +47,26 @@ export const FooterTitle = styled.p`
 
 export const FooterLink = styled.p`
     margin-top: 20px;
+`;
+
+export const ButtonContainer = styled.div`
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+`;
+
+export const Button = styled.button`
+    background-color: #018762;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    shadow: 0 0 20px #404040;
+
+    &:hover {
+        background-color: #015D4D;
+        transform: scale(1.1);
+    }
 `;
