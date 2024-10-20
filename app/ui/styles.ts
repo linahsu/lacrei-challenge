@@ -63,6 +63,7 @@ export const FooterContent = styled.div`
     @media (max-width: 768px) {
         flex-direction: column;
         width: 100%;
+        margin-top: 20px;
     }
 `;
 
@@ -105,6 +106,10 @@ export const FooterLink = styled.p`
 export const HomeImage = styled.img`
     margin: auto;
     width: 50%;
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
 `;
 
 export const HomeContainer = styled.div`
@@ -114,6 +119,11 @@ export const HomeContainer = styled.div`
     margin: auto;
     margin-top: 50px;
     width: 50%;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        flex-direction: column;
+    }
 `;
 
 export const SecurityContainer = styled.div`
@@ -122,10 +132,21 @@ export const SecurityContainer = styled.div`
     align-items: center;
     width: 50%;
     margin: auto;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 70px;
+    }
 `;
 
 export const SecurityImage = styled.img`
     width: 50%;
+
+    @media (max-width: 768px) {
+        width: 90%;
+        margin-bottom: 50px;
+    }
 `;
 
 export const SecurityButtonContainer = styled.div`
@@ -134,6 +155,10 @@ export const SecurityButtonContainer = styled.div`
     justify-content: space-between;
     margin-left: 50px;
     height: 300px;
+
+    @media (max-width: 768px) {
+        margin-left: 0;
+    }
 `;
 
 export const Button = styled.button`
@@ -154,6 +179,7 @@ export const Button = styled.button`
     }
 
     @media (max-width: 768px) {
-        font-size: 20px;
+        font-size: 22px;
+        margin-bottom: 30px;
     }
 `;
