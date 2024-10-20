@@ -58,6 +58,7 @@ export const FooterContent = styled.div`
     width: 80%;
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 50px;
     padding-top: 50px;
 
     @media (max-width: 768px) {
