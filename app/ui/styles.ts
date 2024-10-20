@@ -42,7 +42,7 @@ export const HeaderLink = styled.a`
     @media (max-width: 768px) {
         background-color: #018762;
         color: white;
-        font-size: 23px;
+        font-size: 18px;
 
         &:hover {
             background-color: #015D4D;
@@ -91,7 +91,7 @@ export const FooterLinkContainer = styled.div`
 
     @media (max-width: 768px) {
         width: 100%;
-        font-size: 20px;
+        font-size: 18px;
     }
 `;
 
