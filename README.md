@@ -1,15 +1,17 @@
-# Bem vindos ao repositório do Lacrei-Challenge
+# Bem vindos ao repositório do Lacrei-Challenge 🌈
 
 Esta é uma aplicação Front end **Next.js** em **Typescript**, utilizando **Styled-Components** para estilização.
 
 Este projeto consiste em duas páginas web interativas, com roteamento entre elas, incorporando os seguintes elementos:
 
-- **Header e Footer**
+- **Header e Footer**: Com designs que refletem a essência acolhedora da Lacrei Saúde.
 - **Três Botões**: Cada um com uma funcionalidade única, fazendo link com páginas da Lacrei Saúde.
 - **Teste Unitário**: Utilizando Jest e RTL.
 - **Responsividade**: garantindo uma boa visualização em dispositivos móveis e desktops.
 
-## Rodando o Projeto
+## Rodando o Projeto 💻
+
+⚠️ **É necessário uma versão Node igual ou superior à 18.18.0.**
 
 1 - Clone o repositório com o comando:
 
@@ -37,7 +39,7 @@ npm run dev
 
 5 - Abra **http://localhost:3000** com o seu navegador para visualizar o projeto rodando.
 
-## Executando o Teste
+## Executando o Teste 🛠️
 
 Foi implementado um teste no projeto:
 
