@@ -7,7 +7,7 @@ export const HeaderContainer = styled.header`
     margin-bottom: 50px;
 
     @media (max-width: 768px) {
-        width: 90%;
+        width: 100%;
         flex-direction: column;
     }
 `;
@@ -42,6 +42,7 @@ export const HeaderLink = styled.a`
     @media (max-width: 768px) {
         background-color: #018762;
         color: white;
+        font-size: 23px;
 
         &:hover {
             background-color: #015D4D;
@@ -61,6 +62,34 @@ export const FooterContent = styled.div`
 
     @media (max-width: 768px) {
         flex-direction: column;
+        width: 100%;
+    }
+`;
+
+export const FooterImage = styled.div`
+    position: relative;
+    visibility: visible;
+    width: 190px;
+    height: 80px;
+
+    @media (max-width: 768px) {
+        visibility: hidden;
+        height: 0;
+    }
+
+    img {
+     object-fit: contain;
+    }
+`;
+
+export const FooterLinkContainer = styled.div`
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        font-size: 20px;
     }
 `;
 
@@ -122,5 +151,9 @@ export const Button = styled.button`
         background-color: #015D4D;
         border: 2px solid #015D4D;
         color: white;
+    }
+
+    @media (max-width: 768px) {
+        font-size: 20px;
     }
 `;

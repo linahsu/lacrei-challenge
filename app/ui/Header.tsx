@@ -10,8 +10,12 @@ export default function Header() {
                 <Image src='/logo.svg' alt="logo" width={190} height={190} />
             </Link>
             <S.HeaderNav>
-                <S.HeaderLink href="/">Lacrei Saúde</S.HeaderLink>
-                <S.HeaderLink href="/security">Segurança e Privacidade</S.HeaderLink>
+                <Link href="/" passHref>
+                    <S.HeaderLink>Lacrei Saúde</S.HeaderLink>
+                </Link>
+                <Link href="/security" passHref>
+                    <S.HeaderLink>Segurança e Privacidade</S.HeaderLink>
+                </Link>
             </S.HeaderNav>
         </S.HeaderContainer>
     )
