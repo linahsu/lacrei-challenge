@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Bem vindos ao repositório do Lacrei-Challenge
 
-## Getting Started
+Esta é uma aplicação Front end **Next.js** em **Typescript**, utilizando **Styled-Components** para estilização.
 
-First, run the development server:
+Este projeto consiste em duas páginas web interativas, com roteamento entre elas, incorporando os seguintes elementos:
+
+- **Header e Footer**
+- **Três Botões**: Cada um com uma funcionalidade única, fazendo link com páginas da Lacrei Saúde.
+- **Teste Unitário**: Utilizando Jest e RTL.
+- **Responsividade**: garantindo uma boa visualização em dispositivos móveis e desktops.
+
+## Rodando o Projeto
+
+1 - Clone o repositório com o comando:
+
+```bash
+git clone git@github.com:linahsu/lacrei-challenge.git
+```
+
+2 - Entre na pasta do projeto:
+
+```bash
+cd lacrei-challenge
+```
+
+3 - Instale as dependências:
+
+```bash
+npm install
+```
+
+4 - Rode o comando:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5 - Abra **http://localhost:3000** com o seu navegador para visualizar o projeto rodando.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Executando o Teste
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Foi implementado um teste no projeto:
 
-## Learn More
+```bash
+./tests/homePage.test.tsx
+```
 
-To learn more about Next.js, take a look at the following resources:
+Nele temos um teste para o botão "Quem Somos" localizado na Home page.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Ele testa se o comportamento do botão está funcionando corretamente.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+A estrutura do teste é a seguinte:
 
-## Deploy on Vercel
+1. Mockamos a abertura de uma nova janela ao início de cada teste dentro do scopo describe.
+2. Limpamos todos os mocks feitos após cada teste dentro do escopo describe.
+3. Renderizamos a HomePage.
+4. Encontramos o botão "Quem Somos" e guardamos em uma variável AboutButton.
+5. Simulamos um click neste botão.
+6. Engloba o esperado em um waitFor para garantir a abertura da janela.
+7. Verifica que foi aberta uma nova janela na URL correta.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Rode o teste com o comando:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run test
+```
