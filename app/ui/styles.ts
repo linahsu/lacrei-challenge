@@ -21,9 +21,11 @@ export const HeaderNav = styled.nav`
     font-size: 18px;
 
     @media (max-width: 768px) {
+        flex-direction: column;
         margin-right: 20px;
         margin-top: 40px;
         width: 100%;
+        height: 80px;
     }
 `;
 
@@ -91,7 +93,7 @@ export const FooterLinkContainer = styled.div`
 
     @media (max-width: 768px) {
         width: 100%;
-        font-size: 18px;
+        font-size: 15px;
     }
 `;
 
